@@ -13,6 +13,16 @@ app.use(logger());
 
 app.use(router.routes()).use(router.allowedMethods());
 
+// Route /root
+router.get("/", async function (ctx) {
+  ctx.body = {serverTime: new Date()}
+});
+
+// Route /ping
+router.get("/ping", async function (ctx) {
+ctx.body = "pong"
+});
+
 app.use(compress());
 app.listen(9000);
 console.log("listening on port 9000");
