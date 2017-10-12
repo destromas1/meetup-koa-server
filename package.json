@@ -1,0 +1,27 @@
+{
+  "name": "meetup-koa-server",
+  "version": "1.0.0",
+  "description": "meetup-koa-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-compress": "^2.0.0",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destromas1/meetup-koa-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/destromas1/meetup-koa-server/issues"
+  },
+  "homepage": "https://github.com/destromas1/meetup-koa-server#readme"
+}
